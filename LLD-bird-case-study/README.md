@@ -7,5 +7,6 @@
   We can add new classes/Methods as a new feature but can't modify existing code base.
 
 
-
+## Solution for SRP and OCP violation
+* Make Bird class as abstract Bird class and add only common attributes and behavior which will be in all birds.
 
