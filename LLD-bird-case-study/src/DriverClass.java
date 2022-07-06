@@ -1,7 +1,8 @@
 public class DriverClass {
     public static void main(String...x){
-        Bird sparrow=new Sparrow();
-        Bird pegion=new Pegion();
-        Bird penguin=new Penguin();
+        FlyableMakeSoundBird pegion=new Pegion();
+        FlyableNonMakeSoundBird sparrow=new Sparrow();
+        NonFlyableMakeSoundBird penguin=new Penguin();
+        NonFlyableNonMakeSoundBird toyBird=new ToyBird();
     }
 }

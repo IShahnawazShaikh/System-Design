@@ -3,6 +3,4 @@ public abstract class Bird {
     int weight;
     int color;
     String type;
-    abstract void fly();
-    abstract void makeSound();
 }

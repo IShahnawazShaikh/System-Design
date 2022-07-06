@@ -10,3 +10,16 @@
 ## Solution for SRP and OCP violation
 * Make Bird class as abstract Bird class and add only common attributes and behavior which will be in all birds.
 
+## Liskov Substitution
+* No child class should deserve any special treatment
+* All object of child class should be able to be substituted/stored in a variable of parent class without requiring any code change in further code
+
+#### But in the version v1, we can see penguin can't fly. so in this case we have to provide special treatment for penguin. That's violating the Liskov Substitution principle
+
+## Solution for the Liskov violation
+* Create different absract classes for FlyableBird and NonFlyableBird that extends Bird and remove fly and makeSound method that are forcing every bird to fly and make sound
+* Add other use case like
+   * Bird can fly and make sound `FlyableMakeSoundBird`
+   * Bird can fly but cannot make sound `FlyableNonMakeSoundBird`
+   * Bird cannot fly but can make sound `NonFlyableMakeSoundBird`
+   * Bird neither fly nor make sound `NonFlyableNonMakeSoundBird`
