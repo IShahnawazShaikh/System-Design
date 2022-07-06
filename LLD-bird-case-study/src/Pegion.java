@@ -1,9 +1,8 @@
-public class Pegion extends Bird{
+public class Pegion extends FlyableMakeSoundBird{
     @Override
     void fly() {
 
     }
-
     @Override
     void makeSound() {
 

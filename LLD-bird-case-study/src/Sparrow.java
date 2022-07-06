@@ -1,12 +1,7 @@
-public class Sparrow extends Bird{
+public class Sparrow extends FlyableNonMakeSoundBird{
     @Override
     void fly() {
 
-
-    }
-
-    @Override
-    void makeSound() {
 
     }
 }
