@@ -1,7 +1,6 @@
-public class Sparrow extends FlyableNonMakeSoundBird{
+public class Sparrow extends  Bird implements FlyableBird{
     @Override
-    void fly() {
-
+    public void fly() {
 
     }
 }

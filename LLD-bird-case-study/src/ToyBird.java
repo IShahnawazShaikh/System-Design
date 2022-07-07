@@ -1,2 +1,2 @@
-public class ToyBird extends NonFlyableNonMakeSoundBird{
+public class ToyBird extends Bird{
 }

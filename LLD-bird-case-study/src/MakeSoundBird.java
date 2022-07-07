@@ -1,0 +1,3 @@
+interface MakeSoundBird{
+   void makeSound();
+}

@@ -23,3 +23,9 @@
    * Bird can fly but cannot make sound `FlyableNonMakeSoundBird`
    * Bird cannot fly but can make sound `NonFlyableMakeSoundBird`
    * Bird neither fly nor make sound `NonFlyableNonMakeSoundBird`
+#### Another problem
+* Class Explosion
+   * Here for 2 behaviour we are creating 4 classes and for 10 behavior we will be creating 2^10 classes.
+* Not Possible to get List of all bird that can fly 
+#### Solution
+* Create interfaces for behaviour like `FlyableBird` and `MakeSoundBird` and implement when accordingly.

@@ -1,6 +1,7 @@
-public class Penguin extends NonFlyableMakeSoundBird{
+public class Penguin extends Bird implements MakeSoundBird{
+
     @Override
-    void makeSound() {
+    public void makeSound() {
 
     }
 }
