@@ -3,4 +3,7 @@ public abstract class Bird {
     int weight;
     int color;
     String type;
+    public void eat(){
+
+    }
 }
