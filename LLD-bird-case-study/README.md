@@ -44,3 +44,10 @@
 ### Solution for code duplication
 * Make Another common classes like `PegionSparrowFlyWay` and `EagleCrowFlyWay`.
 * This will remove code duplication.
+
+### Problem in previos version v4 (violation of Dependency Inversion)
+* Here Concrete classes `Pegion`, `Sparrow`, `Eagle` and `Crow` are directly depend on another concrete class `PegionSparrowFlyWay` and `EagleCrowFlyWay`.
+* Later if any bird wants to fly in different way, this would lead to many changes on production level. 
+### Solution 
+* Create interface `BirdFlyWays` and all the common fly way classes must implements this interface.
+* Now all the Birds are dependent on the concrete classes via interface between them.

@@ -1,4 +1,4 @@
-public class PegionSparrowFlyWay {
+public class PegionSparrowFlyWay implements BirdFlyWays{
     public void makeFly(){
 
     }
