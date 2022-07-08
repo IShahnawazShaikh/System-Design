@@ -1,5 +1,6 @@
-public class EagleCrowFlyWay {
-    public void doFly(){
+public class EagleCrowFlyWay implements BirdFlyWays{
+    @Override
+    public void makeFly() {
 
     }
 }
