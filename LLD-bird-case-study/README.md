@@ -29,3 +29,7 @@
 * Not Possible to get List of all bird that can fly 
 #### Solution
 * Create interfaces for behaviour like `FlyableBird` and `MakeSoundBird` and implement when accordingly.
+
+## Interface Segregation Principle
+* The interface should be as light as possible.
+* Make interface as specific as possible (should have very less methods ideally only one).
