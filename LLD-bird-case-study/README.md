@@ -33,3 +33,14 @@
 ## Interface Segregation Principle
 * The interface should be as light as possible.
 * Make interface as specific as possible (should have very less methods ideally only one).
+
+## Dependency Inversion
+* No two concrete classes should directly depend on each other. They should depend on each other via an interface in between them.
+* If two classes are dependent on each other, then they would have tight coupling.
+
+#### Problem in previous design-v3
+* Code Duplication: 
+  * Let's say if two bird fly in similar way then there will be code duplication in fly method.
+### Solution for code duplication
+* Make Another common classes like `PegionSparrowFlyWay` and `EagleCrowFlyWay`.
+* This will remove code duplication.
